@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  orientations
+//  Layout
 //
 //  Created by admin on 8/31/16.
 //  Copyright © 2016 Apress. All rights reserved.
@@ -13,10 +13,6 @@
 @end
 
 @implementation ViewController
-
--(NSUInteger)supportedInterfaceOrientation {
-    return (UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationLandscapeLeft);
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
